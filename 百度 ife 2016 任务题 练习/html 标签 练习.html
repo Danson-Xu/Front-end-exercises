@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<base href="http://www.baidu.com">
+	<link rel="stylesheet" href="xx.css">
+	<title>html tags practice</title>
+</head>
+
+<body>
+	<header>html tags practice</header>
+	
+	<nav>
+	<a href="http://www.baidu.com">Home</a>
+	<a href="http://www.baidu.com">Previous</a>
+	<a href="http://www.baidu.com">Next</a>
+	</nav>
+
+	<h2>list element</h2>
+	<ol>
+		<li><a href="http://www.baidu.com">导航链接</a></li>
+			<ul>
+				<li><a href="http://www.baidu.com">导航链接</a></li>
+				<li><a href="http://www.baidu.com">导航链接</a></li>
+				<li><a href="http://www.baidu.com">导航链接</a></li>
+			</ul>
+		<li><a href="http://www.baidu.com">导航链接</a></li>
+		<li><a href="http://www.baidu.com">导航链接</a></li>
+	</ol>
+	<dl>
+		<dt>dt</dt>
+		<dd>存放定义列表中待定义词汇的标签</dd>
+		<dt>dd</dt>
+		<dd>存放定义列表待定义词汇解释的标签</dd>
+	</dl>
+
+	<h2>article element</h2>
+	<article>
+		<h3>段子两则</h3>
+		<p>文章作者 文章发表时间</p>
+		<p>
+		1.以前在ktv当服务员，有一包房的人过生日，后来他们走了我就去打扫房间，看见桌上还有一半的<strong>蛋糕</strong>没吃，正好有点饿，就坐那吃，正吃的开心，一堆人回来了，你们不知道他们看我那眼神，呵呵哒，他妈的你们接个人需要全部出去吗？
+		<br />
+		2..我吃饭口味较重，<em>喜欢多盐</em>。一日，舍友问我：品是什么意思？我懒得理他（他喜欢问些奇怪的问题），随口说道：就是吃的意思。舍友边思考边点头，一副原来如此的样子。几日后，女友来宿舍找我聊天，舍友躺在在床上看书。当我与女友谈到品味的时候，女友便问我：你的品味如何？女友话刚完，舍友便扔下书，坐起来抢答道：他一向重口味。我顿时脸色发青。
+		<br />
+		<a href="http://www.baidu.com">摘自糗事百科</a>
+		</p>
+		<a href="http://www.baidu.com"><img src="C:\Users\APD042C.APD042\Desktop\th.jpg"  alt="好看的图片" /></a>
+		<p>
+		3.刚刚，在我妈屋躺着，我在他身后，我刚抬头要说话，她一抬胳膊，直接打我下巴了，疼的我半天才缓过来，看她好像不知道的样子，我可怜兮兮的说：妈刚才你胳膊打着我脸了。我妈：噢我说我胳膊咋这么疼呢。。。
+		<br />
+		4.刚刚去吃米粉，下粉的是个漂亮妹子，穿着低胸装，弯腰的时候整个胸露了半个在外面，忍不住多看了一会，她抬头时露出了灿烂笑容，我心花怒放，还是第一次有美女这样对我笑，好开心，只见她朱唇轻启，甜甜的喊了句 “爸，你来了” ，我回头一看，她爸正恶狠狠的瞪着我...
+		<br />
+		<a href="http://www.baidu.com"  target="_blank">摘自糗事百科</a>
+		</p>
+	</article>
+	
+	<h2>audio/video element</h2>
+		<audio controls="controls" autoplay="autoplay" loop="loop" muted="muted" preload="auto">
+			<source src="C:\Users\APD042C.APD042\Desktop\Sleep Away.mp3" type="audio/mpeg">
+			<source src="C:\Users\APD042C.APD042\Desktop\Sleep Away.ogg" type="audio/ogg">
+		</audio>
+		<br />
+		<video controls="controls" autoplay="autoplay" loop="loop" muted="muted" preload="auto" width="160px" height="90">
+			<source src="C:\Users\APD042C.APD042\Desktop\Sleep Away.mp4" type="audio/mpeg">
+			<source src="C:\Users\APD042C.APD042\Desktop\Sleep Away.ogg" type="audio/ogg">
+			<track />
+			<track />
+		</video>
+
+	<h2>image element</h2>
+		<img src="http://www.w3school.com.cn/i/eg_planets.jpg"  alt="planets" usemap="#planetmap" />
+		<map name="planetmap" id="planetmap">
+			<area shape="rect" coords="0,0,110,260" href="http://www.w3school.com.cn/example/html/sun.html" alt="sun" target="_blank">
+			<area shape="circle" coords="180,139,14" href="http://www.w3school.com.cn/example/html/mercur.html" alt="mercur" target="_blank">
+			<area shape="circle" coords="129,161,10" href="http://www.w3school.com.cn/example/html/venus.html" alt="venus" target="_blank">
+		</map>
+
+	<h2>table element</h2>
+	<table border="1">
+		<caption>我的女朋友列表</caption>
+		<thead>
+			<tr>
+				<th>姓名</th>
+				<th>身高</th>
+				<th>颜值</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>linda</td>
+				<td>177</td>
+				<td><a href="http://www.baidu.com">98</a></td>
+			</tr>
+			<tr>
+				<td rowspan="2">denise and donna</td>
+				<td>175</td>
+				<td><a href="http://www.baidu.com">96</td>
+			</tr>
+			<tr>
+				<td>178</td>
+				<td><a href="http://www.baidu.com">94</td>
+			</tr>
+			<tr>
+				<td>ella</td>
+				<td>174</td>
+				<td><a href="http://www.baidu.com">97</td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td>总计</td>
+				<td colspan="2">1000</td>
+			</tr>
+		</tfoot>
+	</table>
+
+		<h2>form element</h2>
+		<form action="xx.php" method="post" id="register">
+			<fieldset name="email" form="register">
+				<legend>注册邮箱</legend>
+				<label  for="email">邮箱：</label>
+				<input type="text" name="emailss" id="email" value="这是一个文本输入框" /><keygen name="security">
+				<label for="pw1">密码：</label>
+				<input type="password" name="pw" id="pw1" />
+			</fieldset>
+			<fieldset name="user" form="register">
+				<legend>用户资料</legend>
+				<label>性别：</label>
+				<input type="radio" name="sex" value="male" checked="checked">男
+				<input type="radio" name="sex" value="female">女
+				<br /><br />
+				<label>爱好：</label>
+					<input type="checkbox" name="checkbox1" value="checkbox" />运动
+					<input type="checkbox" name="checkbox2" value="checkbox" checked="checked" />艺术
+					<input type="checkbox" name="checkbox3" value="checkbox" />科学
+				<br /><br />
+				<label>城市：</label>	
+					<select name="citylist">
+						<optgroup label="北方城市">
+						<option value="beijing">北京</option>
+						<option value="shanghai" selected="selected">上海</option>
+						</optgroup>
+						<optgroup label="南方城市">
+						<option value="guangzhou">广州</option>
+						<option value="shenzhen">深圳</option>
+						</optgroup>
+					</select>
+				<br /><br />
+				<label>城市：</label>
+					<input list="citylist">	
+					<datalist id="citylist">
+						<option value="beijing"></option>
+						<option value="shanghai"></option>
+						<option value="guangzhou"></option>
+					</datalist>
+				<br /><br />
+				<label>个人描述：</label>
+					<textarea name="msg" id="" cols="30" rows="2">这是一个多行输入框，请输入您的个人描述
+				</textarea>
+			</fieldset>
+			<br />
+			<input type="submit" value="确认提交" />
+		</form>
+		<form action="xx.asp" method="post">
+			0<input type="range" id="a" value="40">100
+			+<input type="number" id="b" value="50">
+			=<output name="x" for="a b"></output>
+		</form>
+
+		<footer>版权所有，抄袭必究</footer>
+
+	</body>
+</html>

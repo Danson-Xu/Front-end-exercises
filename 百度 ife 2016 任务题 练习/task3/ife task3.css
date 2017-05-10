@@ -1,0 +1,76 @@
+/*document structure
+body
+	div#teaminfo
+		div#left
+			div
+				img
+				div
+		div#right
+		div#middle
+*/
+*{
+	padding: 0;
+	margin: 0;
+	font-family: "microsoft yahei";
+	border: solid 1px red;
+}
+body{
+	padding: 20px 20px 20px 20px;
+
+}
+#teaminfo{
+	padding: 20px;
+	background-color: #eee;
+	border: solid 1px #999;
+	min-width: 600px;
+
+}
+/*#left*/
+#left{
+	width: 160px;
+	float: left;
+	background-color: white;
+	border: solid 1px #999;
+	padding: 20px;
+	font-size: 13px;
+	font-weight: bold;
+}
+	#left img{
+		width: 80px;
+		height: 80px;
+		border: solid 1px #999;
+		float: left;
+		margin-right: 10px;
+	}
+/*#right*/
+#right{
+	width: 120px;
+	float: right;
+	background-color: white;
+	border: solid 1px #999;
+
+}
+	#right img{
+		display: block;
+		width: 80px;
+		height: 80px;
+		margin: 20px;
+		border: solid 1px #999;
+	}
+/*#middle*/
+#middle{
+	padding: 20px;
+	margin: 0px 140px 0px 220px;
+	border: solid 1px #999;
+	background-color: white;
+}
+.clear_float:before,
+.clear_float:after{
+	content: "";
+	display: table;
+}
+.clear_float:after{
+	clear:both;
+}
+
+
